@@ -1,0 +1,137 @@
+.carders {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    align-items: center;
+    gap: 150px; /* Adjusted padding for better layout */
+    padding: 50px;
+    margin-top: -20px;
+}
+
+.card-img-top {
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+}
+
+.border-test1 {
+    border-color: #1877F2 !important; /* Facebook logo color */
+}
+
+.border-test2 {
+    border-color: #ed1c24 !important; /* Netflix logo color */
+}
+
+.border-test3 {
+    border-color: #6441a5 !important; /* Twitch logo color */
+}
+
+.formers {
+    max-width: calc(18rem * 2 + 150px); /* Sets the width to match two cards plus the gap */
+    width: 100%; /* Allow the form to scale with the viewport */
+    margin: 100px auto 0; /* Centers the form horizontally */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Ensures the form elements stack vertically */
+    align-items: center; /* Centers the form elements within the form */
+}
+
+.button-test1 {
+    color:#ed1c24 !important;
+    background-color: #ed1c24 !important; 
+}
+
+.nav-link {
+    color: #212529 !important; /* Default color before click */
+    transition: color 0.8s ease;
+    font-weight: 500 !important;
+}
+
+.nav-link:active {
+    color: #111111 !important; /* Color when clicked */
+    background-color: #fafafa; /* Optional: changes the background color when active */
+
+}
+
+.modal-fade{
+    color:#c40b0b !important;
+}
+
+.btn-primary-test1 {
+    color: #ffffff !important; /* Default color before click */
+    transition: color 0.8s ease;
+    font-weight: 500 !important;
+    background-color: #0866ff !important;
+    border-color: #0866ff !important;
+}
+
+.btn-primary-test2 {
+    color: #ffffff !important; /* Default color before click */
+    transition: color 0.8s ease;
+    font-weight: 500 !important;
+    background-color: #ed1c24 !important;
+    border-color: #ed1c24 !important;
+}
+
+.btn-primary-test3 {
+    color: #ffffff !important; /* Default color before click */
+    transition: color 0.8s ease;
+    font-weight: 500 !important;
+    background-color: #6441a5 !important;
+    border-color: #6441a5 !important;
+}
+
+.btn-primary.active{
+    color: #111111 !important; /* Color when clicked */
+    background-color: #fafafa; /* Optional: changes the background color when active */
+
+}
+
+.headers{
+    margin-top: 200px;
+    text-align: center;
+    list-style-type: none;
+    color:#212529;
+}
+
+.contacters{
+    margin-top: 200px;
+    text-align:center;
+}
+
+.contacters2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.formers h1{
+    margin-bottom: 30px;
+}
+
+.test4{
+    border-color: #198754 !important;
+}
+
+.navers a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.formers form {
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: auto; /* Center the form */
+  }
+  
+  /* Make form inputs and textarea wider */
+  .form-control {
+    width: 100%;
+  }
+  
+  #nameInput, #emailInput, #messageInput {
+    width: 100%; /* Ensure the inputs and textarea take up the full width of the form */
+  }
+  
+  textarea.form-control {
+    min-height: 150px; /* Adjust height if needed */
+  }
